@@ -28,9 +28,6 @@ class MicRouter < Formula
 
   def caveats
     <<~EOS
-      To run mic-router automatically in the background:
-        brew services start nanoac/tap/mic-router
-
       Grant Input Monitoring permission to:
         #{opt_bin}/mic-router
       in System Settings → Privacy & Security → Input Monitoring.
